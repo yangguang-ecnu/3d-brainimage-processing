@@ -38,6 +38,5 @@ m=poly2mask(x,y,size(I,1),size(I,2));
 hold on; imshow(m); hold off;
 
 
-seg = Level_Set_Seg_1(I, m, 20, 35, 170, 0.02); %-- Run segmentation
+seg = Level_Set_Seg_1(I, m, 100, 35, 170, 0.02); %-- Run segmentation
 subplot(2,2,1); imshow(seg); title('Final Mask of phi<=0');
-
