@@ -7,7 +7,7 @@ Nifti                   %Printing Nifti Object properties.
 ImageV=Nifti.img;       %Capturing Volumetric Information
 [Height Width Large] = size(ImageV)
 
-F = Capturing_Slice(ImageV,1,100); %Capturing Coronal (type = 1) Image at distance 100;
+F = Capturing_Slice(ImageV,3,100); %Capturing Coronal (type = 1) Image at distance 100;
 
 imshow(F);
 imcontrast;

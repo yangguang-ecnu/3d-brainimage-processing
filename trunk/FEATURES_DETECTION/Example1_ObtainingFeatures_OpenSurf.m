@@ -1,6 +1,7 @@
 addpath('LIBS_FEATURES');
 % Load image
   G=imread('../IMAGES/bigbrain.bmp');
+%  G=imread('../IMAGES/test.png');
   I = G(:,:,1);
 % Set this option to true if you want to see more information
   Options.verbose=false; 
@@ -8,3 +9,4 @@ addpath('LIBS_FEATURES');
   Ipts=OpenSurf(I,Options);
 % Draw points on the image
   PaintSURF(I, Ipts);
+  
