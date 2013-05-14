@@ -11,6 +11,7 @@ ImageV=Nifti.img;       %Capturing Volumetric Information
 [Height Width Large] = size(ImageV)
 
 F = Capturing_Slice(ImageV,1,100); %Capturing Coronal (type = 1) Image at distance 100;
+%F = dicomread('../DATA/DICOM_SAMPLES/SOUS-702/IM-0001-0022.dcm');
 Minimo = min(min(F));
 Maximo = max(max(F));
 I = F;
