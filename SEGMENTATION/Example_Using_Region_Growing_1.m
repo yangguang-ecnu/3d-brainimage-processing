@@ -1,3 +1,4 @@
+%%HOLA MUCHACHOS
 addpath('LIBS_SEGMENTATION');        % In this directory regiongrowing exists;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc;
