@@ -1,0 +1,3 @@
+D:\\LIBRERIAS\\Tesseract-OCR\\tesseract
+D:\\LIBRERIAS\\Weka-3-7\\Weka 3.7.lnk
+RESOURCES\\OFELI
