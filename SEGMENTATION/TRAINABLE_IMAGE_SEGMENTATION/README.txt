@@ -10,7 +10,7 @@ Before Ruuning.
 You must install:
 1 - Java Development Kit (JDK. Download from: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
-2 - Tesseract OCR - Donwload from: https://code.google.com/p/tesseract-ocr/downloads/list
+2 - Tesseract OCR - Download from: https://code.google.com/p/tesseract-ocr/downloads/list
     Tesseract allows you to automatically extract range temperature information from IR
     Image, acquired from example from FLIR Image.
 
@@ -27,9 +27,9 @@ You must install:
     Download from: https://java3d.java.net/binary-builds.html
 
 /////////////////////////////////////////////////////////////////////////////////////
-Copy PATH to config file:
+Copy PATH to config file (Config.txt):
 
-Once installed copy Tesseract and Weka binary executable PATH to config file
+Once installed copy Tesseract, Weka and OFELI binary executable PATH to config file Config.txt
 in order to adequately running TRAINABLE_IMAGE_SEGMENTATION.m. For Example in 
 my case: 
 
