@@ -7,7 +7,7 @@ default Matlab's classifiers or Weka advanced classifiers.
 
 Before Ruuning.
 
-You mus install:
+You must install:
 1 - Java Development Kit (JDK. Download from: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
 2 - Tesseract OCR - Donwload from: https://code.google.com/p/tesseract-ocr/downloads/list
