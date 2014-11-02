@@ -1,4 +1,4 @@
-TRAINABLE IMAGE SEGEMENTATION
+TRAINABLE IMAGE SEGMENTATION
 
 This utility allows you to segment image via pixel classification. You can use 
 default Matlab's classifiers or Weka advanced classifiers.
